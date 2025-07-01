@@ -79,3 +79,7 @@ body {
 #contact-info p {
     margin-bottom: 10px;
 }
+
+#contact-info.visivel {
+    display: block;
+}
