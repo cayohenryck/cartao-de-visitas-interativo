@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --fundo-principal: #101010;
+    --container: #1a1a1a;
+    --acento: #39ff14;
+    --acento-hover: #28b463;
+    --texto-principal: #eaeaea;
+    --texto-secundario: #888888;
+    --cor-borda: rgba(57, 255, 20, 0.5);
+}
+
+body {
+    font-family: 'Roboto', monospace;
+    background-color: var(--fundo-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--texto-principal);
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: var(--container);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 320px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid var(--cor-borda);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-top: -80px;
+    background-color: var(--container);
+}
+
+.card h2 {
+    margin: 15px 0 5px;
+    font-weight: 700;
+    color: var(--texto-principal);
+}
+
+.card p { 
+    color: var(--texto-secundario);
+    margin-bottom: 20px;
+}
+
+#btn-reveal {
+    background-color: var(--acento);
+    color: #101010;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+#btn-reveal:hover {
+    background-color: var(--acento-hover);
+    transform: translateY(-2px);
+}
+
+#contact-info {
+    display: none;
+    margin-top: 25px;
+    border-top: 1px solid var(--cor-borda);
+    padding-top: 25px;
+}
+
+#contact-info p {
+    margin-bottom: 10px;
+}
