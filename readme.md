@@ -6,7 +6,7 @@ Este é um projeto pra estudo de JavaScript, focado em praticar os conceitos bá
 
 ## 📸 Screenshot
 
-![Prévia da Aplicação](/screenshot.gif)
+![Prévia da Aplicação](https://github.com/cayohenryck/cartao-de-visitas-interativo/blob/main/assets/preview.gif?raw=true)
 *Pré-visualização do cartão de visitas com a funcionalidade de toggle.*
 
 ---
