@@ -1,4 +1,4 @@
-# 🃏 Cartão de Visitas Interativo - Missão de Estudo 01
+# 🃏 Cartão de Visitas Interativo
 
 Este é um projeto pra estudo de JavaScript, focado em praticar os conceitos básicos de interatividade. O objetivo foi criar um componente simples que reage a ações do utilizador, manipulando o DOM de forma dinâmica.
 
